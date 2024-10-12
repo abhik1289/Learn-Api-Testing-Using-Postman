@@ -12,6 +12,9 @@ console.log(response['status'])
 
 pm.test('It is ok',()=>{
     pm.expect(response.status).to.eql('OK');
+
 })
 
+
+// Test cases
 
